@@ -1,0 +1,181 @@
+.top_site {
+    margin-top: 150px;
+    background-color: white;
+}
+
+* {
+    font-family: isans;
+}
+
+body {
+    background-color: #F2F1EF;
+}
+
+@font-face {
+    font-family: 'isans';
+    src: url('fonts/IRANSans-Bold.eot?#') format('eot'),
+        /* IE6–8 */
+        url('fonts/IRANSans-Bold.woff2') format('woff2'),
+        /* Chrome36+, Opera24+*/
+        url('fonts/IRANSans-Bold.woff') format('woff');
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'isans';
+    src: url('fonts/IRANSANSExpanded.eot?#') format('eot'),
+        /* IE6–8 */
+        url('fonts/IRANSANSExpanded.woff2') format('woff2'),
+        /* Chrome36+, Opera24+*/
+        url('fonts/IRANSANSExpanded.woff') format('woff');
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    font-weight: normal;
+}
+
+#topmenu nav ul ul {
+    display: none;
+}
+
+#topmenu nav ul li:hover > ul {
+    display: block;
+}
+
+#topmenu nav ul {
+    background: #125fc9;
+    width: 100%;
+    color: #FFFFFF;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+
+/*#topmenu nav ul:after {*/
+/*content: "";*/
+/*clear: both;*/
+/*display: block;*/
+/*}*/
+
+#topmenu nav ul li {
+    float: right;
+    position: relative;
+    font-weight: bold;
+}
+
+#topmenu nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+#topmenu nav ul li:hover a {
+    color: #fff;
+}
+
+#topmenu nav ul li a {
+    display: block;
+    padding: 15px 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#topmenu nav ul ul {
+    background: #125fc9;
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+}
+
+#topmenu nav ul ul li {
+    float: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+#topmenu nav ul ul li a {
+    padding: 15px 40px;
+    color: #fff;
+}
+
+#topmenu nav ul ul li a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#topmenu nav ul ul ul {
+    position: absolute;
+    right: 100%;
+    top: 0;
+}
+
+input[type=text],
+[type=email],
+[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.fname {
+    float: right;
+    text-align: right;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #b0a6a6;
+    text-align: right !important;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #125fc9;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.adminLoginPageBox {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+}
+
+.login_fname {
+    border-radius: 15px;
+    border: 1px solid #125fc9;
+}
+
+.adminlogifaramoshi {
+    text-decoration: none !important;
+}
